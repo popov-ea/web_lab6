@@ -1,0 +1,21 @@
+<div class="row mt-5">
+    <div class="col-md-5 offset-3">
+        <h4>Добавление статьи</h4>
+        <form method="POST" action="/addArticle">
+            <div class="form-group" >
+                <label for="articleText">Текст статьи</label>
+                <textarea class="form-control" id="articleText"  name="articleText" placeholder="Текст статьи" rows="20"> </textarea>
+            </div>
+            <div class="form-group">
+                <label for="class">Метка класса</label>
+                    <select class="form-control" id="class" name="class">
+                    <option value="1">Classification problems</option>
+                    <option value="2">Pattern recognition</option>
+                    <option value="3">Biometrics investigations</option>
+                    <option value="4">Image processing</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-block btn-success" value="Подобрать рубрику">
+        </form>
+    </div>
+</div>
