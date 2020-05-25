@@ -1,0 +1,12 @@
+<div class="row mt-5">
+    <div class="col-md-5 offset-3">
+        <h4>Добавление статей</h4>
+        <form method="POST" action="/addArticlesFromCsv" enctype="multipart/form-data">
+            <div class="form-group" >
+                <label for="file">CSV файл со статьями</label>
+                <input type="file" class="form-control" id="file"  name="file">
+            </div>            
+            <input type="submit" class="btn btn-block btn-success" value="Добавить">
+        </form>
+    </div>
+</div>

@@ -15,4 +15,9 @@ router.get("/articles/:category", appController.getArticlesByCategory);
 
 router.get("/train", appController.train);
 
+router.get("/addArticlesFromCsv", appController.addArticlesFromCsvPage);
+router.post("/addArticlesFromCsv", appController.addArticlesFromCsv)
+
+router.get("/statistics", appController.getStatistic);
+
 module.exports = router;

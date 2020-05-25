@@ -1,0 +1,55 @@
+<div class="row">
+    <div class="col-md-10 offset-1">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">true positive</th>
+                    <th scope="col">false positive</th>
+                    <th scope="col">false negative</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>{{statistic.firstClass.truePositive}}</td>
+                    <td>{{statistic.firstClass.falsePositive}}</td>
+                    <td>{{statistic.firstClass.falseNegative}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>{{statistic.secondClass.truePositive}}</td>
+                    <td>{{statistic.secondClass.falsePositive}}</td>
+                    <td>{{statistic.secondClass.falseNegative}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>{{statistic.thirdClass.truePositive}}</td>
+                    <td>{{statistic.thirdClass.falsePositive}}</td>
+                    <td>{{statistic.thirdClass.falseNegative}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>{{statistic.fourthClass.truePositive}}</td>
+                    <td>{{statistic.fourthClass.falsePositive}}</td>
+                    <td>{{statistic.fourthClass.falseNegative}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>Precision</td>
+                    <td>{{precision}}</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>Recall</td>
+                    <td>{{recall}}</td>
+                </tr>                
+                <tr>
+                    <td colspan="2"></td>
+                    <td>f1</td>
+                    <td>{{f}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
