@@ -9,7 +9,7 @@
         "bayes-multiple-categories": "^1.0.2",
         "body-parser": "^1.19.0",
         "csv-reader": "^1.0.6",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "express-handlebars": "^4.0.4",
         "hbs": "^4.1.1",
         "ml-naivebayes": "^4.0.0",
